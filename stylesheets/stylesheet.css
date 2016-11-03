@@ -28,11 +28,23 @@ a {
   .btn + .btn {
     margin-left: 1rem; }
 
+.btn-main {
+    color: #e8e8e8;
+    background-color: #159957;
+    border-color: #0f854a;
+}
+
 .btn:hover {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
+
+.btn-main:hover {
+    color: rgba(116, 116, 116, 0.8);
+    text-decoration: none;
+    background-color: rgba(21, 153, 87, 0.2);
+    border-color: rgba(255, 255, 255, 0.3); }
 
 @media screen and (min-width: 64em) {
   .btn {

@@ -36,7 +36,7 @@ def get_schedule_html():
     return file_str
 
 
-def main():
+def get_schedule_json():
     schedule_html = get_schedule_html()
     soup = BeautifulSoup(schedule_html, 'html.parser')
 
@@ -90,6 +90,29 @@ def main():
             event['speakers'] = '; '.join(speakers_list)
 
             day['events'].append(event)
+
+    return days
+
+
+def create_ics(schedule_json):
+    c = Calendar()
+    for day in schedule_json:
+        for event in day['events']:
+            e = Event(
+                name=event['title'],
+                begin=event['datetime_start'],
+                end=event['datetime_finish'],
+                description=u'Description:\n{description}\n\nSpeakers:\n{speakers}'.format(**event).encode('ascii', 'ignore'),
+                location=event['location']
+            )
+            c.events.append(e)
+    with open('pycon2016.ics', 'w') as writer:
+        writer.writelines(c)
+
+
+def main():
+    schedule_json = get_schedule_json()
+    create_ics(schedule_json)
 
 
 if __name__ == '__main__':

@@ -1,0 +1,562 @@
+BEGIN:VCALENDAR
+PRODID:ics.py - http://git.io/lLljaA
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T083000Z
+DTEND:20161105T094000Z
+SUMMARY:Registration & Breakfast
+DESCRIPTION:Description:\nRegistration open. Complimentary Breakfast!\n\nSpeakers:\n
+UID:ebcab9ac-6b76-49bf-9db9-cd8f9a0f5309@ebca.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T094000Z
+DTEND:20161105T100000Z
+SUMMARY:Opening
+DESCRIPTION:Description:\nWe're delighted to have the Minister of Jobs\, Enterprise and Innovation to open the conference this year.\n\nSpeakers:\nDavid Markey - Chairperson - Python Ireland\; Mary Mitchell-O'Connor - Minister for Jobs\, enterprise and Innovation - DJEI
+LOCATION:Goldsmith 1+2
+UID:69d5cf9b-c162-4712-a14b-9a769980bb3b@69d5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T100000Z
+DTEND:20161105T103000Z
+SUMMARY:Mozilla & Python
+DESCRIPTION:Description:\nPython is heavily used at Mozilla for many different tasks. This talk will explain how and whyPython is often the language of choice in the Kingdom of Javascript and now Rust\,\n\nSpeakers:\nTarek	 Ziad - Engineering Manager - Mozilla
+LOCATION:Goldsmith 1+2
+UID:2e85cddc-2c80-46c4-89e1-cbecb60a7b77@2e85.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T103000Z
+DTEND:20161105T104500Z
+SUMMARY:Break
+DESCRIPTION:Description:\nPlease enjoy a coffee which networking in our sponsor area.\n\nSpeakers:\n
+UID:fd44251f-d2c9-4498-8c9e-f1bf75c404cc@fd44.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T104500Z
+DTEND:20161105T113000Z
+SUMMARY:Deploy your Python Application Without Getting Owned
+DESCRIPTION:Description:\nWith severe security vulnerabilities on the rise\, its critical for  Python developers to understand how to protect their applications.  Unattended upgrades\, automated TLS certificate provisioning\, enhanced  web security\, and other measures can significantly reduce the attack  surface of the systems upon which our applications run.\n\nSpeakers:\nJustin Mayer
+LOCATION:Goldsmith 1+2
+UID:e401498c-0d93-468e-bff6-db820057f5f5@e401.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T104500Z
+DTEND:20161105T113000Z
+SUMMARY:Putting python data science into production
+DESCRIPTION:Description:\nData science once involved working with a large data set in relative  isolation and producing a static report to present at a quarterly  meeting. Decision makers in companies have been inspired by the types of  insights the data can offer and are asking more questions of it\, such  as what happens if I change this variable or where did this result come  from. Data scientist regularly now present their analysis not in reports  but in web apps or behind APIs that allow this kind of interrogation. We have been building data science solutions for 10 years and have  learnt many lessons along the way. In this talk we will run through how  to build performant\, scalable and validated data science web apps\, using  python.\n\nSpeakers:\nBrian  O'Mullane - Head of Software Development - cremeglobal.com
+LOCATION:Goldsmith 3
+UID:dfae1e73-03c1-4db9-a545-35177e91f61b@dfae.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T110000Z
+DTEND:20161105T130000Z
+SUMMARY:Introduction to Pandas library
+DESCRIPTION:Description:\nThis workshop is for those who have used python before and would like to  analyze data using PyData stack specifically Pandas. There would be  sample datasets and useful recipes that would explained using a Jupyter  notebook. Topics that would be covered are data munging\, analysis and  visualization. Code for the workshop would be made available on Github  for future reference and updates. No prior experience in Pandas is  assumed. Only working knowledge in Python and a laptop with  Anaconda/Canopy distribution installed is required.\n\nSpeakers:\nAllen Thomas Varghese  - Full Stack Developer and Community Engagement Specialist - Creme Global
+LOCATION:Workshop Room 1
+UID:b0b69cde-bc4d-4c08-9b33-85d1bbdd0733@b0b6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T110000Z
+DTEND:20161105T130000Z
+SUMMARY:Python for Beginners
+DESCRIPTION:Description:\n\n\nSpeakers:\nMike Mller - CEO - Python Acadamy
+LOCATION:Workshop Room 2
+UID:77e0c763-ea14-4465-af0b-6c0880dc6701@77e0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T113000Z
+DTEND:20161105T120000Z
+SUMMARY:All Kinds of Everything - Human Input Devices in Python
+DESCRIPTION:Description:\nInputs is a brand new module published in 2016 but it is already  gaining some traction. The inputs module provides cross-platform Python  support for keyboards\, mice\, gamepads\, touch screens\, wiimotes\, buttons\,  switches and pretty much any other input device you might want to use.  Currently supported platforms are the Raspberry Pi\, Linux\, Windows and  the Apple Mac. The talk is suitable for everyone. The inputs module is very high  level and suitable for complete beginners to programming\, I will also  explain very briefly for more advanced developers how to support a new  class of device\, but not in a boring way.In a light-hearted fashion\, I will demonstrate how to use the inputsmodule  and will demonstrate some embedded/Internet of Things use cases\, a  digital signage use case and some more comical\, imaginative and  entertaining applications of the module.https://pypi.python.org/pypi/inputs\n\nSpeakers:\nZeth Green - Lead Developer - infomachine.uk
+LOCATION:Goldsmith 1+2
+UID:f3773d4e-44f4-4339-8e59-373657ace5e2@f377.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T113000Z
+DTEND:20161105T120000Z
+SUMMARY:From documents to graphs with Python
+DESCRIPTION:Description:\n\n\nSpeakers:\nHanneli  Tavante  - software developer
+LOCATION:Goldsmith 3
+UID:d2ed88ba-bfae-4972-a77d-b4528e41edae@d2ed.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T120000Z
+DTEND:20161105T123000Z
+SUMMARY:Get your code to do your job
+DESCRIPTION:Description:\nI choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it. In the AOL Adtech team we have some creative/easy ways to test our systems. This workshop will showcase two key points:How to get your code to generate your unit and integration testsHow to get your customers to generate even more testsThe workshop will go into detail on:Modelling your interfaces and dataUsing introspection and JINJA2 to generate tests3 . Using the Elastic stack to monitor and collect dataLeveraging data to generate more test cases.The workshop will assume a beginner level of python and introduce  each library and technology . The net result is a very simple and easy  step by step guide to getting your code to do your job.\n\nSpeakers:\nRonan Hayes - AOL
+LOCATION:Goldsmith 1+2
+UID:3f40983b-cb56-4cd8-bc8b-c06dd30dbeda@3f40.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T120000Z
+DTEND:20161105T123000Z
+SUMMARY:Sharing knowledge in the Python ecosystem
+DESCRIPTION:Description:\nData Scientists (or researchers) often do many early-stage prototyping and run many experiments before finding the optimal solution for the problem they are trying to solve. However\, sometimes\, a lot of the knowledge gained in the process stays with the person. In this proposed talk\, I would like to introduce how to produce\, share and ensure the reproducibility of experiments using jupyter notebooks and github. This is a series of lessons Iearned while being a research student (where open-sourcing the code and data used to generate papers is very important) and more recently\, working in a new team in Zalando\, where we have experimented with different ways to share and review the data science tasks\, as well as the knowledge generated from those tasks.\n\nSpeakers:\n
+LOCATION:Goldsmith 3
+UID:7efb835b-bb49-47a2-bc0b-f79765033ac2@7efb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T123000Z
+DTEND:20161105T130000Z
+SUMMARY:Managing Kubernetes from Python using Kube
+DESCRIPTION:Description:\nKubernetes is the Google Borg inspired control plane for Docker  containers that everyone is talking about.  It has a great API but needs  a load of HTTP client code and JSON processing to use it from Python.   This talk introduces Kube\, a Python wrapper around the Kubernetes API  that enables you to manage your Kubernetes cluster in a pythonic way  while avoiding any Kubernetes API peculiarities.\n\nSpeakers:\nDavid Charles - CTO - Cobe.io
+LOCATION:Goldsmith 1+2
+UID:46ad7f56-5043-436a-bf3a-5b5ea1120179@46ad.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T123000Z
+DTEND:20161105T130000Z
+SUMMARY:Python for Text Analysis Kaggle Competition
+DESCRIPTION:Description:\nUsing the recent Home Depot Search Relevance Kaggle competition (https://www.kaggle.com/c/home-depot-product-search-relevance)  as an example\, this talk will give a general overview of a predictive  analytics project in python\, specifically focusing on text analytics. This talk will first give an introduction to Kaggle and this  competition in particular. To give an introduction to predictive  analytics\, I will then show how to start designing "features" which  describe the similarity of two samples of text. Using a very simple  feature\, the number of overlapping words\, we can build our first simple  predictive model. Building on this base\, we'll then explore more  advanced text mining techniques\, such as term frequency matrices\,  TF-IDF\, Latent Semantic Analysis\, and word2vec. Finally\, we can see how  the final random forest model performs and what the most important  features were.I've delivered this presentation in 30 minutes at a work event  already. I can tweak the talk to focus less on the introduction to  predictive analytics and more on the text analytics methods if that  would be a better fit for the audience.\n\nSpeakers:\nJohn  Savage - Data Engineer - Deutsche Bank
+LOCATION:Goldsmith 3
+UID:dde3614b-8120-4043-8629-1217eab3b393@dde3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T130000Z
+DTEND:20161105T140000Z
+SUMMARY:Lunch
+DESCRIPTION:Description:\n\n\nSpeakers:\n
+UID:8e6fc0b5-ec1e-462d-84ed-bf65f5fe7f94@8e6f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T140000Z
+DTEND:20161105T143000Z
+SUMMARY:Try\, try\, and try again
+DESCRIPTION:Description:\nWriting code in Python is easier than most other   programming languages. So much so\, in fact\, that it's easy to quickly  knock-up something  to solve a problem\, especially if your code is  ultimately "throw-away".  As a language\, Python's  great at not getting in your way: you write  your code\, it  runs\, then  you move onto something else. But\, how easy is it to to  write  robust code  in Python? What if your code has to hang around for a  long time? What  if you need to write code which not only runs but also  has to handle  problems should they occur? In this talk\, Paul attempts  to answer these questions by presenting  some working  code\, which he then dissects to highlight some of the  things that can go wrong\,  before describing how it's possible to handle  and survive the identified  problems (should they occur).\n\nSpeakers:\nPaul Barry - Lecturer - Institute of Technology\, Carlow
+LOCATION:Goldsmith 1+2
+UID:4422b518-4b5e-4de0-8d03-639b12ece6c6@4422.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T140000Z
+DTEND:20161105T143000Z
+SUMMARY:Introduction to Data Science
+DESCRIPTION:Description:\nThe aim of this talk is to give a introduction to what data science  is\, what kind of problems it can solve and how to solve them.  Participants will learn both with theory and a practical problem to  understand the end-to- end data science process. The contents will  include:What is data scienceData preprocessing and data manipulationNatural Language Processing (NLP)Machine LearningThe talk is tailored for people interested in data science who do not  have previous knowledge about the topic\, but have basic knowledge of  general computer science topics.\n\nSpeakers:\nAna  Peleteiro Ramallo - Data Scientist - Zalando
+LOCATION:Goldsmith 3
+UID:1cbd8a08-785c-4b02-a0da-6b7bcfb5e915@1cbd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T143000Z
+DTEND:20161105T150000Z
+SUMMARY:Overview of Python Web Development\, from Searching to Deployment.
+DESCRIPTION:Description:\nThis talk is about helping people new to development & Python to connect the dots between googling python web development and reaching deployment. When entering the world of development there is a huge learning curve. Its not just about understanding python syntax and writing a function. How does everything fit together? This talk will attempt to introduce the budding developer to the options available and why you may choose one over another.I will run through the following topics: The major python web frameworks that exist. We will examine the pros and cons of the main players.Python itself\, Apis vs Services\, what goes where?How to build restfully and the importance of adhering to correct http protocols. How does javascript know what to do?The merits of testing and running through the different testing libraries that are available.Brief intro to Github and pointing to resources to help learn how to commit.Highlighting any gotchasDeployment tools.Hosting\, where to go?How to google for relevant answers.Python community for answers. (globally and local)Hopefully those that attending will have a greater understanding of the whole development system so they will know what to research for each step and where to find answers.\n\nSpeakers:\nAndrea Fagan - Software Engineer - Bank of America
+LOCATION:Goldsmith 1+2
+UID:9bef3edf-602b-4c14-8271-5ddabf96429b@9bef.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T143000Z
+DTEND:20161105T150000Z
+SUMMARY:Data Pipeline Evolution
+DESCRIPTION:Description:\nHow do you build a big data pipeline when the size of your data starts  to get out of hand?  How do you improve on the initial model when people  are demanding more data\, and faster?This talk covers the evolution  of a data pipeline in Python\, from daily full load to up-to-the-minute  event stream\, based on our experience at FanDuel.  Technologies covered  include Amazon EMR\, Redshift\, Hadoop\, Luigi\, Spark and Kinesis.  We also  look at the challenges and trade-offs\, and building a big data  engineering team.\n\nSpeakers:\nAli King - Software Engineer - FanDuel
+LOCATION:Goldsmith 3
+UID:78cf2b38-07fb-42f3-a0df-bcb95d5c77b0@78cf.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T143000Z
+DTEND:20161105T161500Z
+SUMMARY:The power of SQLAlchemy
+DESCRIPTION:Description:\nThe power of SQLAlchemy Object-relational mappers (ORM) have somewhat of a bad reputation. SQLAlchemy is not just an ORM\, but gives you an entire toolkit to aid you in working with any SQL relational database.In this talk I will give an introduction and deep dive into the 2 main sections of the library\, the expression language and the ORM. And outline some of the more powerful features available at your fingertips.I have used SQLAlchemy extensively for over 3 years now. Creating a full domain model using it's declarative mappings. Constructing optimized queries and custom SQL statements and built a self-optimizing domain specific language (DSL) for a fully-fledged REST API.I hope to impart some of the tips\, tricks and ways of working that I have gained over this time.\n\nSpeakers:\nDavid Mcilwee - Team lead\, Scrum Master and Senior Software Engineer - Bank of America Merrill Lynch
+LOCATION:Workshop Room 1
+UID:8848c60b-721c-47eb-a2a1-5c501800ea6f@8848.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T143000Z
+DTEND:20161105T161500Z
+SUMMARY:Natural Language Processing with Python
+DESCRIPTION:Description:\nThis tutorial will introduce the audience to the fields of Natural Language Processing (NLP) and Machine Learning (ML) using a hands-on approach. Analysing and truly understanding natural language\n is a difficult task\, but Python doesn't fall short in terms of making \nthis topic approachable\, thanks to its rich ecosystem and active \ncommunity.Firstly we'll provide an overview on NLP using NLTK\, the Natural Language Toolkit\, one of the most popular Python library for NLP. We'll discuss some of the most important text processing steps and how they impact the quality of our final application.We'll then move on to some notions of word frequency analysis\, like TF \nand IDF. All these concepts are going to be applied in the context of a \ntext classification system. Using scikit-learn\, we'll understand how to build a classifier\, and how to use\n it to categorise documents according to pre-defined labels. We'll \nbriefly discuss how to assess the quality of our model\, and how we can \ntune it to achieve better predictions.There are no particular requirements to attend this tutorial\, so Python \nbeginners are welcome. Some prior basic notions of machine learning can \nbe beneficial\, but the theoretical aspects are kept to the bare minimum:\n the aim of this tutorial is to be practical and approachable. Attendees\n are encouraged to bring their own laptop with Python 3\, NLTK and \nscikit-learn pre-installed (instructions for pip/virtualenv will be \nprovided\, but please feel free to set up the environment in advance).\n\nSpeakers:\nMarco Bonzanini  - Data Scientist - Bonzanini Consulting Ltd
+LOCATION:Workshop Room 2
+UID:3755095c-0863-439b-952f-88cdb81307f9@3755.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T150000Z
+DTEND:20161105T153000Z
+SUMMARY:CPython - Bytecode and Virtual Machine
+DESCRIPTION:Description:\nFrom a small example of code\, we will generate the bytecode with the  compiler\, we will study the generated bytecode with the tools of CPython  and especially we will see the execution of this bytecode by the  virtual machine with a modified version of CPython\, just for this  talk.This talk is based on my previous talk "Exploring our Python  Interpreter" but in this talk\, we will go more in the details of the  interpreter and especially of the virtual machine.\n\nSpeakers:\nStephane Wirtel - Freelance and Belgian software hacker\, dad. Python\, Erlang/Elixir & Odoo expert. @ThePSF Fellow\, EuroPython Society - Mgx.IO
+LOCATION:Goldsmith 1+2
+UID:8899dd6f-9aba-49a1-a541-a41a67967bac@8899.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T150000Z
+DTEND:20161105T153000Z
+SUMMARY:Data Analysis in MRI and PET/MRI Neuroimaging
+DESCRIPTION:Description:\nSince the introduction of new hybrid systems as PET/MRI and due to the  constant increase of MRI sequences\, neuroimaging datasets are growing  constantly. Nowadays a Neurological research study has to be considered a  big data problem. In this talk I will introduce from scratch some of  the most common algorithms for computing neuroimaging biomarkers and  give some ideas about efficiency increasing. Some examples in python  will be given.\n\nSpeakers:\nDavide  Poggiali  - PhD student - University of Padova\, Italy
+LOCATION:Goldsmith 3
+UID:56e6416c-9fa7-4118-881e-5586f33664dc@56e6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T153000Z
+DTEND:20161105T160000Z
+SUMMARY:Building Hermetic Python Packages with Bazel @ Dropbox
+DESCRIPTION:Description:\nIn this presentation\, Id like to talk about  Dropboxs Python code repository\, how we build and package it\, so it can  be safely deployed to production.Specifically  Id like to focus on the issues we had with dependency management and  how Bazel build system\, which was open-sourced by Google early last  year\, helped us deal with it.Also\,  Im going to cover lessons-learned and what plumbing was done in order  to make Bazel work for Dropbox in development\, test and production  environment.Key take-aways for attendees:* An approach to introducing dependency management system into existing codebase* Better understanding of how Bazel works in real-world\n\nSpeakers:\nLeonid Vasilyev - Site Reliability Engineer - Dropbox
+LOCATION:Goldsmith 1+2
+UID:2d0466ab-c8d8-4913-a0c8-b01d7f66a62e@2d04.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T153000Z
+DTEND:20161105T160000Z
+SUMMARY:Recruit Session
+DESCRIPTION:Description:\n\n\nSpeakers:\nHarald Armin Massa - SQL programmer
+LOCATION:Goldsmith 3
+UID:b8814cf5-b1cd-4f62-836e-9f8e417c55ab@b881.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T160000Z
+DTEND:20161105T161500Z
+SUMMARY:Break
+DESCRIPTION:Description:\n\n\nSpeakers:\n
+LOCATION:Goldsmith 1+2
+UID:bf10ad0a-c5fe-409c-9517-f0161d23c561@bf10.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T161500Z
+DTEND:20161105T170000Z
+SUMMARY:Practical Django Debugging and Profiling
+DESCRIPTION:Description:\nI plan to cover Debug Mode\, The Django Debug Toolbar\, The Werkzeug  Debugger\,  Profiling Middleware\, Logging and Locust for Load testing.  The Goal is to introduce each tool\, give its pros and cons\, and a short  demonstration. Ideally there will be enough time for some Q&A\; at the  end.\n\nSpeakers:\nSean O'Donnell - Chief Technical Architect - RapidRatings
+LOCATION:Goldsmith 1+2
+UID:07d4b9d1-1bd3-43ae-ac63-d5ab83a34df3@07d4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T161500Z
+DTEND:20161105T170000Z
+SUMMARY:Experimenting with TensorFlow
+DESCRIPTION:Description:\nFrom implementing new research to validating results\, running machine learning experiments can often be a process of trial and error. TensorFlow is an open source computing framework that places state of the art algorithms and tools into developers' hands\, allowing you to rapidly iterate experiments\, monitor their results and scale into production. We'll show you how to train machine learning pipelines from  conception to release with TensorFlow.\n\nSpeakers:\nBreandan  Considine  - Developer Advocate - jetbrains
+LOCATION:Goldsmith 3
+UID:bf1924ca-8efc-4e9e-8948-32883dd22228@bf19.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T170000Z
+DTEND:20161105T180000Z
+SUMMARY:Lightning Talks
+DESCRIPTION:Description:\n\n\nSpeakers:\nHarald Armin Massa - SQL programmer
+LOCATION:Goldsmith 1+2
+UID:642f6177-1892-47f6-a141-251756fd1b83@642f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T180000Z
+DTEND:20161105T193000Z
+SUMMARY:Break
+DESCRIPTION:Description:\nUse this break to get dinner\, however there will be some pizzas as a snack at the quiz.\n\nSpeakers:\n
+UID:a8761f58-ec39-4dcf-b7a5-714521628bfe@a876.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161105T193000Z
+DTEND:20161105T223000Z
+SUMMARY:Super Fun Time PyConIE2016 QUIZ!
+DESCRIPTION:Description:\nProudly Sponsored bySeehttp://python.ie/pycon-2016/entertainment/for details\n\nSpeakers:\nAndrea Fagan - Software Engineer - Bank of America
+LOCATION:Goldsmith Hall
+UID:1e181aa2-e701-479d-a007-f174b6e3e0c5@1e18.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T090000Z
+DTEND:20161106T094000Z
+SUMMARY:Complimentary Breakfast
+DESCRIPTION:Description:\n\n\nSpeakers:\n
+UID:11aeb830-f20f-4bb3-975b-752c8159fe27@11ae.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T094000Z
+DTEND:20161106T094500Z
+SUMMARY:Introduction by Scurri
+DESCRIPTION:Description:\nWe're going to have a short message by our Diamond sponsors - Scurri.\n\nSpeakers:\n
+UID:53ba0222-6696-490a-b55f-eb6c9f332a01@53ba.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T094500Z
+DTEND:20161106T103000Z
+SUMMARY:Gilectomy
+DESCRIPTION:Description:\nCPythons Global Interpreter Lock\, or GIL\, was added in 1992. It was an excellent design decision. But 24 years is a long timetoday it prevents Python from capitalizing on multiple CPUs. Many people want us to remove the GIL.It turns out\, removing the GIL isnt actually that hard. In fact\, I already removed it\, in my experimental gilectomy branch. But the GIL is one reason CPython is so fast! The gilectomy makes CPython shockingly slow.This talk will discuss the history of the GIL\, how the GIL helps make CPython fast\, how the gilectomy removed the GIL\, and some ways we might be able to make the gilectomy version fast enough to be useful.\n\nSpeakers:\nLarry Hastings - Release Manager for Python 3.4 and 3.5 - python.org
+LOCATION:Goldsmith 1+2
+UID:6635c3a7-306b-4ad7-8eda-230b471ae78c@6635.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T103000Z
+DTEND:20161106T110000Z
+SUMMARY:Cut your losses! How to use web scraping to analyse Ireland's used car market.
+DESCRIPTION:Description:\nDepreciation of value when you buy a car is inevitable\, but can you  limit your losses? Is it true that Toyotas and Volkswagens hold their  value? What does high mileage do to a cars value?Lets leave  aesthetics and preferences aside and use real data to see what really  determines the price of a car on the second hand market. This session will cover:How to make spiders using Portia and scrapy to extract data from Irish car websites.The use of simhash to find duplicates in different datasets.How to use pandas to analyse and plot scraped data.\n\nSpeakers:\nRuairi Fahy - Software developer
+LOCATION:Goldsmith 1+2
+UID:be22f75e-530b-4427-b9e7-6a01f7457ddb@be22.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T103000Z
+DTEND:20161106T110000Z
+SUMMARY:Social Network Analysis at Scale
+DESCRIPTION:Description:\nThis talk will focus on the scientific analysis of social networks\, how  to derive useful insights from social graphs using Python\, and discuss  some lessons learned from taking this analysis out of the lab and into  to a useful product in a production setting. I will cover acquiring  data\, predicting influence or activity\, recommending possible friends  from the graph and detecting communities within large networks.  Experience with tools used to do this\, including sklearn\, networkx\,  Spark and Kafka will be covered.\n\nSpeakers:\nEoin  Hurrell  - Data Lead - Cohort
+LOCATION:Goldsmith 3
+UID:f56e53f1-bf7d-4c0a-b62a-54c3be571663@f56e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T103000Z
+DTEND:20161106T123000Z
+SUMMARY:Introduction to Python\, Spark & Hadoop
+DESCRIPTION:Description:\nUsing python to interact with the spark data engine on the hadoop platform.          What is hadoop.What is spark.What is pyspark.Using pyspark to work with data on HDFSUsing pyspark to parallelize computation on a hadoop cluster.Limitations of spark and hadoop.A workshop for python programmers to get familiar with hadoop and  spark.  It is assumed you can code and run a python module\, that you  understand basic data structures.  It is assumed you have hadoop and  spark installed.\n\nSpeakers:\nNiall O'Connor - Vice President - Bank of America
+LOCATION:Workshop Room 1
+UID:62fd71f9-19c5-497e-b406-95c948d25a15@62fd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T103000Z
+DTEND:20161106T123000Z
+SUMMARY:A Gentle Introduction to Neural Networks (with Python)
+DESCRIPTION:Description:\nThere is huge interest in neural networks right now - they are the  core of deep learning which recently has been in the news (self driving  cars\, health data Google beating world Go champion)\, and a key tool for  data scientists\, skills sought by more and more organisations to remain  competitive. They're also fun to play with!This talk presents a very gentle introduction to neural networks\, and how to make your own with Python.It is deliberately designed to be accessible to everyone - including  anyone with no expertise in mathematics\, computer science or Python.After this session you should have an intuitive understanding of what  neural networks are and how they work\, how they were inspired by  nature\, and what you can do with them. If you can program in Python  (beginner to intermediate)\, you will see how you could make your own  with Python and numpy.Part 1 - Ideas: - the search for AI\, hard problems for computers easy  fro humans - learning from examples (simple classifier) - biologically  inspired neurons and networks - training a neural network - the back  propagation breakthrough - matrix ways of working (good for computers)Part 2 - Python: - Python is easy\, and everywhere - Python notebooks -  the MNIST data set - a very simple neural network class - focus on  concise and efficient matrix calculations with bumpy - 97.5% accuracy  recognising handwritten numbers - with just a few lines of code!Part 3 - Live demo! .. and Q&A\;\n\nSpeakers:\nTariq Rashid
+LOCATION:Workshop Room 2
+UID:8e88e43b-9dce-4dc7-a249-b3f44b4dfef6@8e88.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T110000Z
+DTEND:20161106T113000Z
+SUMMARY:Plug in with Python
+DESCRIPTION:Description:\nFirst I'll talk about what plugins are in general. From there it's on  to show an overview of the philosophy of plugins and different ways  they're used in different types of applications\, what kinds of  peculiarities there are. I will top it off with some live coding!\n\nSpeakers:\nMarkus  Trnqvist -  Software Architect - Codento
+LOCATION:Goldsmith 1+2
+UID:5f8e5ce5-08ac-4e3c-964c-661193f6a890@5f8e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T110000Z
+DTEND:20161106T113000Z
+SUMMARY:How Data Science fits in the Balanced Team
+DESCRIPTION:Description:\nThe goal of a Balanced Team is to share ownership and responsibility  for the success of a project between team members. Each team member has  specific obligations to the team and a specific area of authority. Until  recently\, designers\, product managers and developers were the usual  team members considered. In this talk I will explore how data scientists  can function in a balanced team and discuss my experience working as a  data scientist on balanced teams at Pivotal Labs with our global  clients. I will consider what obligations and authority a data scientist  can provide as part of a balanced team and how this situation differs  from the usual jack-of-all-trades type data science work. I will outline specific examples where data science can help user  centric design and product management\, and where the practices of  lean-startup and agile development can help accelerate analysis and data  science. Based on my experience building data science driven products  with a global bank and European car manufacturers\, I will outline what  we tried\, what worked and most importantly what didnt.If you are a data scientist or need to work with one\, this talk will  equip you to understand how data science can be an integral part of a  balanced team.\n\nSpeakers:\nIan Huston - Principal Data Scientist - Pivotal
+LOCATION:Goldsmith 3
+UID:e1b7ec5b-02c9-420d-9c36-bff1d9e360b5@e1b7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T113000Z
+DTEND:20161106T120000Z
+SUMMARY:Lessons Learned Open Sourcing Codespeed
+DESCRIPTION:Description:\nOpen Sourcing a Python project can teach you lessons in so diverse  fields as Software Engineering\, Project Management\, Marketing\, Community  Management and more. Looking back at the past 7 years\, Codespeed\, my first Open Source  project\, has been a niche but very successful project by many metrics.  It is or has been in use by well-known projects and organizations like  the PSF\, PyPy\, Twisted\, RubySpec\, Julia (lang)\, companies like AMD\,  Dropbox and many others\, and to this date there is no clear alternative.  And yet its codebase has become a mess and active development grounded  to a halt for a spell of two or three years.What lessons can we learn from that story? This talk will highlight  some aspects that went horribly wrong\, as well as explain some concepts  in the original design that proved key for the project's success.\n\nSpeakers:\nMiquel Torres - Lead Developer - Scurri
+LOCATION:Goldsmith 1+2
+UID:5d20272a-a586-418d-912c-776ddd3bf37e@5d20.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T113000Z
+DTEND:20161106T120000Z
+SUMMARY:How to Merge Noisy Datasets
+DESCRIPTION:Description:\nAcquiring large datasets is quite simple these days on the internet\, but  data is often noisy and most of the value often lies in combining\,  connecting and merging multiple datasets from different sources.This  talk gives an overview of Probabilistic Record Matching\, i.e. the  challenges posed when dealing with noisy data\, how to normalize data and  how to match noisy records to each other.The goal of the  presentation is to give participants an understanding of the  possibilities and challenges of merging datasets\, as well as mention  some of the amazing python libraries available.Topics discussed: normalization of attributes\, approximate string matching\, performance\, similarity clustering\n\nSpeakers:\nJohannes  Ahlmann  - Team Lead Data Science - ScrapingHub.com
+LOCATION:Goldsmith 3
+UID:4b56fa67-f3c0-4cf2-b25d-591fbabf80fb@4b56.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T120000Z
+DTEND:20161106T130000Z
+SUMMARY:Webscraping with Asyncio
+DESCRIPTION:Description:\nIf we want to extract the contents of a website automating  information extraction\, often we find that the website does not offer  any API to get the data you need and it is necessary use scraping  techniques to recover data from a Web automatically. Some of the most  powerful tools for extracting the data in web pages can be found in  python ecosystem. 1.Introduction to webscraping and python toolsSome of the most powerful tools to extract data can be found in the  python ecosystem\, among which we highlight Beautiful soup\, Pyquery and  Scrapy.2.Asyncio with aiohttp for asyncronous requestsI will make an introduction to asyncio and aiohttp modules explaining  the basic concepts like coroutines and event loops and try to compare  them with requests module. The most important is understand why the  union asyncio + aiohttp has a better performance than requests module.3.Asynchronous scraping dataI will show an example integrating some of the scraping tools  commented before like BeautifulSoup or Scrapy with asyncio + aiohttp and  obtain the performance improvement comparing with Requests module.\n\nSpeakers:\nJose Manuel Ortega - Software engineer - Everis Consulting
+LOCATION:Goldsmith 1+2
+UID:20f38411-14d4-4e60-9a90-d169d67ec5ad@20f3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T120000Z
+DTEND:20161106T130000Z
+SUMMARY:Building a social network content recommendation service using Factorisation machines 
+DESCRIPTION:Description:\nRasa.ioare a community management platform. They wanted to build a service  which would generate a personalised content feed based on both user  commentary and external news feeds. We have use python and a  factorisation machines framework to create a service which there  platform could call to generate a personalised feed\n\nSpeakers:\nConor Duke - Data Scientist - Boxever
+LOCATION:Goldsmith 3
+UID:251fa176-c8e3-48ce-be20-4558744e2bc4@251f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T130000Z
+DTEND:20161106T140000Z
+SUMMARY:Lunch
+DESCRIPTION:Description:\n\n\nSpeakers:\n
+LOCATION:Goldsmith 1+2
+UID:1edb2d17-366e-45d2-a5e3-2d39101e4bf7@1edb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T140000Z
+DTEND:20161106T143000Z
+SUMMARY:Detection of Duplicate Records in Large-scale Multi-tenant Platforms
+DESCRIPTION:Description:\nZalando's quest to create an open multi-tenant fashion platform has  its challenges. One of these is the detection of duplicate product  records within the platform\, where different tenants input the same  product using different product descriptions. Commonly referred to as  theRecord Linkageproblem in Machine Learning\, the task is to  group together similar product records under a single canonical  identifier\, which is useful for business intelligence purposes and for  product search etc. The kernel of the solution is the computation of an  ~O(n**2) all-pairs similarity join\, where the runtime explodes  quadratically with an increase in input. At Zalando's Fashion Insight Centre in Dublin we are looking at  solutions to this problem that work at scale (i.e.\, more than one  million products). For our particular problem\, which involves  Categorical Data (cosine similarity will not work here)\, we employ a  data-driven similarity measure and approximate the similarity join using  a two-step approach. In this talk we introduce the standard approaches  to the problem and illustrate our work-to-date using Python.\n\nSpeakers:\nPaul  O'Grady - Data Scientist - Zalando
+LOCATION:Goldsmith 3
+UID:cf14336e-61d4-4849-ace5-a86a5b6319b9@cf14.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T140000Z
+DTEND:20161106T160000Z
+SUMMARY:Seeing inside your code with Prometheus
+DESCRIPTION:Description:\nThere's more going on inside your code than cpu and memory usage. Requests are processed\,databases queried\, business logic applied and exceptions raised. Wouldn't it be nice to see how that's all going?This workshop will take you through how to instrument your code for what matters to you\,exposing it to Prometheus and creating meaningful graphs\, alerts and dashboards based on it.\n\nSpeakers:\nBrian Brazil - Founder - Robust Perception
+LOCATION:Workshop Room 1
+UID:74b68383-dadb-45cd-b257-5f6a54ae9b94@74b6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T140000Z
+DTEND:20161106T160000Z
+SUMMARY:Mongo DB Zero to Hero in 2 hours
+DESCRIPTION:Description:\nJoe will take you through an overview of MongoDB\, the world's most popular NoSQL database and show you how to build fault tolerant\, scalable python applications using the Pymongo driver.\n\nSpeakers:\nJoe Drumgoole - Director of Developer Advocacy - MongoDB
+LOCATION:Workshop Room 2
+UID:50e050df-20b0-493b-968a-ba5965cd2b6c@50e0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T140000Z
+DTEND:20161106T143000Z
+SUMMARY:Making good testing decisions
+DESCRIPTION:Description:\nTesting is important and we all know we should test. When starting a new project or trying to improve the coverage of an existing one\, there is still a lot of debate around what frameworks should be used\, what are the best practices when mocking\, when should we mock vs using in memory and more importantly\, the reasons behind each decision. This talk aims to provide some insights on making good testing decisions.\n\nSpeakers:\nIngrid Epure -  Software Engineer - Intercom
+LOCATION:Goldsmith 1+2
+UID:333c2484-0922-461c-8dd2-8385e3f0e47a@333c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T143000Z
+DTEND:20161106T150000Z
+SUMMARY:The Evolution of Containerised Testing at Demonware
+DESCRIPTION:Description:\nAs the feedback loop between developers and customers continues to shrink\, the ability to deliver features and fixes in near real-time becomes more crucial.  Continuous Delivery (CD) pipelines can enable teams to deliver code quickly but optimisation of the Build\, Test and Deploy stages can be the difference between a 10 minute deployment and a 5 hour deployment.At Demonware we are using Docker to optimise the Test Stage of our CD pipelines.  Containerised testing has helped us reduce test execution time\, make tests more portable\, better utilize our test infrastructure and deliver game services to our customers faster.This talk will cover some of the challenges we faced along the way and the various approaches we used to containerise our tests.\n\nSpeakers:\nThomas Shaw - Build Engineer - Demonware\; James Heslin - Django developer - Demonware
+LOCATION:Goldsmith 1+2
+UID:9d274a4c-6a47-4db6-bdd6-9b7ba5bdbb5b@9d27.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T143000Z
+DTEND:20161106T150000Z
+SUMMARY:Gradient boosting: What is it and How can I use in my machine learning ?
+DESCRIPTION:Description:\nGradient boosting is a very popular technique in Machine Learning and particularly so for competitions like those hosted by Kaggle. This talk will provide an introduction to the technique\, a short historical recap and then focus on the existing libraries in Python that allow you to use this general family. It'll work through the advantages and disadvantage of specific libraries using worked examples. The code and slides will be in Github. The end learning of attendees will be sufficient knowledge to understand when to use this technique and what is the most appropriate Python library for their needs.\n\nSpeakers:\nEoin Brazil - Senior Proactive Technical Services Engineer - MongoDB
+LOCATION:Goldsmith 3
+UID:9219c0c1-a0dd-4443-9a8f-508c22e3b5f8@9219.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T150000Z
+DTEND:20161106T153000Z
+SUMMARY:Kajiki\, the fast and validated Template Engine your were looking for
+DESCRIPTION:Description:\nBeing dissatisfied with some of the constraints and complex usage of  Genshi\, the TurboGears2 team started working on an alternative that  could solve Genshi speed issues\, complex inheritance system and be  backward compatible with genshi templates. This is what lead to the  creation of the Kajiki template engine. The talk will cover:- Comparison on the major template engines  available in python to showcase what's special in Kajiki (validated\, xml  based) what was special in Genshi (also lazy evaluated)- What's a validated template engine and why it's good to have one.- How Kajiki works\, showcase kajiki syntax\, it's performances and how to use it in any python project.-  Why Kajiki is fast\, code generation applied and how to write a code  generation template engine like Kajiki and Jinja2 (showcase a simple 50  lines of code template engine that uses code generation).\n\nSpeakers:\nAlessandro Molina
+LOCATION:Goldsmith 1+2
+UID:ea4352a6-0830-495c-b8e0-ed141b4eea7a@ea43.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T150000Z
+DTEND:20161106T153000Z
+SUMMARY:Natural Language Processing using Python tools
+DESCRIPTION:Description:\nIn this talk I would like to focus more on how language processing is made easier using python tool kits. How can we set up pipeline starting from scratch to the specific solution using Python tools. I have been using python from last 5-6 years and my main area of research is language processing and information retrieval. I have used python tools previously on various projects and problems related to Sentiment analysis\, Text processing\, Summarization \, Classification etc. For details you can check out my profilehttp://computing.dcu.ie/~parora/.I would like to talk about main 2 aspects: 1) Based Raw Text processing: using NLTK toolkit and other plugins2) Deep learning: using Gensim toolkitDepending on the time availability I would like to have some hands-on experience or have some live coding to make the talk interactive.During my PhD and collaborative projects with researchers and industries I have discovered sometime starting from scratch seems quite complicated and can take lots of time and resources\, but how can we speed up that process and focus on the main innovative solution is the main key resources\, which I would like to address and discuss.\n\nSpeakers:\nPiyush  Arora - PhD Student - ADAPT\, Dublin City University
+LOCATION:Goldsmith 3
+UID:3d8fecc5-db99-4bc2-a602-f72809d27b4f@3d8f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T153000Z
+DTEND:20161106T160000Z
+SUMMARY:Rethinking package management
+DESCRIPTION:Description:\nPackaging is a hard problem. Still every language/distribution tries  to invent packaging on their own. This leaves us (developers /  sysadmins) with a big number of tools that we need to master in order to  do our job. We will look at how Nix[1] and NixOS[2] can be used in  today's software development processes and which are the benefits and  drawbacks you might face. In this talk we will look into how Nix can be used to solve some  problems we face when developing with python and how it might just be  the right tool for your next project.[1] Nix is a powerful package manager for Linux and other Unix  systems that makes package management reliable and reproducible. It  provides atomic upgrades and rollbacks\, side-by-side installation of  multiple versions of a package\, multi-user package management and easy  setup of build environments.[2] NixOS is a Linux distribution built on top of the Nix package  manager\, it is completely declarative\, makes upgrading systems reliable\,  and has many other advantages.\n\nSpeakers:\nRok Garbas
+LOCATION:Goldsmith 1+2
+UID:827c2993-9d67-4260-8846-1f28636202b9@827c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T153000Z
+DTEND:20161106T160000Z
+SUMMARY:Introduction to Image classification in Python: from API calls to Neural Networks
+DESCRIPTION:Description:\nIn a world full of user generated media content\, automated image and  video processing plays a prominent role\, both in social media apps  (face\, object\, and place detection)\, and in local applications that  automatically sort media collections\, among other uses. In the last few years\, a number of startups such as Clarifai and  Indico\, and much bigger players such as Google and Microsoft\, have  launched their own 'machine learning as a service' offerings\, including  'vision' products that can recognise objects present in image and video  footage and automatically tag them\, provide optical character  recognition (OCR) services\, and even not safe for work (NSFW)  classifiers that can be used to omit content from internal networks.This talk will focus on 'food' recognition within images\, and will  walk through the basics of how to get started with image classification\,  from using APIs and SDKs for some of the commercial (but free)  offerings available\, to trying and recreate those services locally\,  first by walking through and example of the 'bag of features' technique\,  using a mix of supervised and unsupervised methods in scikit-learn and  OpenCV\, and secondly showing examples based on 'transfer learning'\, a  'deep learning' technique to reuse pre-trained convolutional neural  networks to customise classification from smaller training datasets.\n\nSpeakers:\nJose Dominguez  - PhD student and software contractor (freelance) - Maynooth University\, Insight Centre for Data Analytics
+LOCATION:Goldsmith 3
+UID:f697d161-70df-4f0d-9067-e5ee627a8d41@f697.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T160000Z
+DTEND:20161106T161500Z
+SUMMARY:Break
+DESCRIPTION:Description:\n\n\nSpeakers:\n
+UID:1dcf0bc7-0b8f-4a3f-bb80-ef8b8f8dde36@1dcf.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T161500Z
+DTEND:20161106T170000Z
+SUMMARY:Part of Speech Tagging: Who's winning.
+DESCRIPTION:Description:\nUp until quite recently the main go to part-of-speech tagger (POS) for use in Python was the NLTK Tagger using the default Penn Treebank tagger. Another popular option was from the Stanford Log-Linear Part-Of-Speech Tagger from Stanford CoreNLP. In May 2016 Google open sourced SyntaxNet with the humorously named English parser Parsey McParseFace. Another commercial companySpacy.ioalso provides an open source parser.The development of Part-Of-Speech tagging continues in academia\, but most are not at the stage where they can be easily used outside of research. How do these taggers differ? This talk will give an overview of part-of-speech tagging from a practical implementation/use-case point of view.What is part-of-speech taggingReal life performance on datasetsHow you might use POS in a projectCompare and contrast the above mentioned taggers for performance.\n\nSpeakers:\nBrian Carter  - Data Scientist - IBM
+LOCATION:Goldsmith 3
+UID:fe62813f-883a-43fe-aa90-76562ff95e97@fe62.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T161500Z
+DTEND:20161106T170000Z
+SUMMARY:The Bluffer's Guide to Data Science
+DESCRIPTION:Description:\nA light-hearted look at the world of Data Science for Python programmers who are eyeing-up the Data Science problem domain and thinking: "It can't be all that hard\, can it?". In his talk\, Paul presents his thinking on what Python programmers need to know in order to convincingly pass themselves off as a "real" Data Scientist.\n\nSpeakers:\nPaul Barry - Lecturer - Institute of Technology\, Carlow
+LOCATION:Goldsmith 3
+UID:715702f4-fc12-4dba-a46d-2903bdf24d92@7157.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T170000Z
+DTEND:20161106T174500Z
+SUMMARY:Deep learning with Keras
+DESCRIPTION:Description:\nIt has always been our dream to create machines that can think. In  the early phase of artificial intelligence\, we solved the problems that  could have been described by a list of formal and mathematical rules.  The main motivation was solving the tasks that are trivial for people to  perform but difficult to describe formally\, for example recognizing  objects in images or spoken words. Neural networks have been one  predominant area of research in artificial intelligence that stayed in  limelight over the past five decades or so. However\, one major boost in  this domain happened around 2010 when the computers got much faster and  data sets got much bigger. The existing algorithms with some critical  tweaks and improvements became much more efficient and won several  challenges in computer vision\, speech recognition\, and natural language  processing. In this talk\, I would briefly describe how neural networks works and  then move towards state-of-the-art approaches of deep learning. I would  describe in detail how to build deep learning models and its training  procedures using the deep learning library "Keras" that removes all of  the complexity\, leaving you an API containing only what you need to know  to efficiently develop and evaluate neural network models. This talk  aims to present two use cases (facial recognition and sequence  prediction) that uses Keras for model building and evaluation.\n\nSpeakers:\nShubhabrata  Roy - Senior Research Engineer/ Data Scientist - HERE
+LOCATION:Goldsmith 3
+UID:42290d37-229b-4e12-a832-00c165d1482b@4229.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T170000Z
+DTEND:20161106T174500Z
+SUMMARY: Type Hints for Static and Runtime Type Checking
+DESCRIPTION:Description:\nThe main objective of this talk is introducing type hints and the new "typing" module that appeared in Python 3.5\, along with the static analysis tools that support them. As a part of this talk\, we will also discuss how to build a runtime type checker on top of the type hints mechanics.Syllabus:- Function annotations- Brief introduction to mypy- Type hints\, typing module- Runtime type checking\n\nSpeakers:\nIvan Smirnov - Quantitative Researcher - SIG
+LOCATION:Goldsmith 1+2
+UID:341b65bf-02f5-4e59-8aa3-439ed3fc7635@341b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161106T174500Z
+DTEND:20161106T180000Z
+SUMMARY:Closing
+DESCRIPTION:Description:\n\n\nSpeakers:\nDavid Markey - Chairperson - Python Ireland
+LOCATION:Goldsmith 1+2
+UID:83a95f92-d3ef-43f3-8388-148421cd65cb@83a9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161107T100000Z
+DTEND:20161107T160000Z
+SUMMARY:Sprints
+DESCRIPTION:Description:\n\n\nSpeakers:\n
+UID:6cc2f9d9-265b-4d3f-ab43-0117e75ba9a6@6cc2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20161103T204618Z
+DTSTART:20161107T100000Z
+DTEND:20161107T160000Z
+SUMMARY:DjangoGirls Workshop
+DESCRIPTION:Description:\nPythoin Ireland are very pleased to host a DjangioGirls workshop. Please sign up athttps://djangogirls.org/dublin/\n\nSpeakers:\n
+UID:cf096e55-e8f5-491e-83be-b6391b4f4062@cf09.org
+END:VEVENT
+END:VCALENDAR

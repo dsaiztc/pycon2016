@@ -1,118 +1,174 @@
-# -*- coding: utf-8 -*-
-import os
+from datetime import datetime
+
 import requests
 from bs4 import BeautifulSoup
-import datetime
-import pprint
-import json
 from ics import Calendar, Event
 
+import requests_cache
 
-this_path = os.path.dirname(os.path.realpath(__file__))
-
-
-def save_file(file_str, file_name):
-    file_path = os.path.join(this_path, file_name)
-    with open(file_path, 'w') as writer:
-        writer.write(file_str.encode('utf-8', errors='replace'))
+requests_cache.install_cache()
 
 
-def read_file(file_name):
-    result = None
-    file_path = os.path.join(this_path, file_name)
-    if os.path.exists(file_path):
-        with open(file_path) as reader:
-            result = reader.read()
-    return result
+def get_event_list_from_url(main_url):
+    event_list = []
+
+    s = requests.Session()
+    s.headers.update({
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'
+    })
+    main_url = 'https://www.bigdataspain.org/2017/schedule'
+    r = s.get(main_url)
+    main_html = r.text
+    soup = BeautifulSoup(main_html, 'html.parser')
+    for container in soup.select('.slots-container'):
+        container_url = container.find('a')
+        if container_url:
+            talk_url = container_url['href']
+            event = get_event_from_url(s, talk_url)
+            event_list.append(event)
+    return event_list
 
 
-def get_schedule_html():
-    file_name = 'schedule.html'
-    file_str = read_file(file_name)
-    if not file_str:
-        response = requests.get('http://d6unce.attendify.io/schedule.html')
-        file_str = response.text
-        save_file(file_str, file_name)
-    return file_str
+def get_event_from_url(s, talk_url):
+
+    r = s.get(talk_url)
+    talk_html = r.text
+
+    soup = BeautifulSoup(talk_html, 'html.parser')
+
+    speaker_url = soup.select('.single-talk-speaker-link')[0].find('a')['href']
+    speaker = get_speaker_from_url(s, speaker_url)
+
+    event_container = soup.select('.single-talk-maininfo-container')[0]
+
+    kind_selector = event_container.select('.single-talk-type')
+    kind = ''
+    if kind_selector:
+        kind = kind_selector[0].contents[0].split('|')[1].strip()
+    title = event_container.find('h2').string
+
+    date_location_info = event_container.select('.single-talk-whereinfo')[0].string.split('|')
+    location = date_location_info[2].strip()
+    date_str = date_location_info[0].strip()
+    time_str = date_location_info[1].strip()
+    time_str_split = time_str.split(' - ')
+    time_start_str = time_str_split[0]
+    time_start_str = time_start_str if len(time_start_str) == 5 else '0' + time_start_str
+    start_date_str = '2017-11-' + date_str[-4:-2].strip() + time_start_str
+    start_date = datetime.strptime(start_date_str, '%Y-%m-%d%H:%M')
+    time_end_str = time_str_split[1]
+    time_end_str = time_end_str if len(time_end_str) == 5 else '0' + time_end_str
+    end_date_str = '2017-11-' + date_str[-4:-2].strip() + time_end_str
+    end_date = datetime.strptime(end_date_str, '%Y-%m-%d%H:%M')
+
+    single_field_data_list = event_container.select('.single-field-data')
+    summary = ''
+    keywords = []
+    if single_field_data_list:
+        summary = single_field_data_list[0].string
+        for i in range(1, len(single_field_data_list)):
+            keywords.append(single_field_data_list[i].string[2:])
+
+    description_p = event_container.select('.single-talk-description')[0].find('p')
+    description = description_p.string if description_p else ''
+
+    event = {
+        'kind': kind,
+        'title': title,
+        'start_date': start_date,
+        'end_date': end_date,
+        'location': location,
+        'speaker': speaker,
+        'summary': summary,
+        'keywords': keywords,
+        'description': description
+    }
+    return event
 
 
-def get_schedule_json():
-    schedule_html = get_schedule_html()
-    soup = BeautifulSoup(schedule_html, 'html.parser')
+def get_speaker_from_url(s, speaker_url):
 
-    day_elements = soup.select('p.schedule__day-switcher-item')
-    days = [ {'name': day.string, 'id': day['data-date'] } for day in day_elements]
+    r = s.get(speaker_url)
+    speaker_html = r.text
 
-    for day in days:
-        day['events'] = []
-        day_schedule = soup.select('#{id}'.format(id=day['id']))[0]
-        day_event_elements = day_schedule.select('div.session')
-        for day_event_element in day_event_elements:
+    soup = BeautifulSoup(speaker_html, 'html.parser')
 
-            event = {
-                'time_start': day_event_element.select('span.session__time')[0].string.replace('\n', '').strip(),
-                'id': day_event_element.select('div.session__content')[0]['data-link'],
-                'title': day_event_element.select('h5.session__title')[0].string
-            }
+    info_list = soup.select('.speaker-maininfo')
+    if not info_list:
+        return {
+            'name': '',
+            'position': '',
+            'company': '',
+            'description': '',
+            'linkedin': '',
+            'twitter': ''
+        }
+    info = info_list[0]
 
-            event['datetime_start'] = datetime.datetime.strptime('2016' + day['name'] + event['time_start'], '%Y%d %B%I:%M %p')
-            event['datetime_start_str'] = str(event['datetime_start'])
+    name = info.find('h4').string
 
-            event_description_element = soup.select('#{id}'.format(id=event['id']))[0]
-            event_time_finish = event_description_element.select('span.session__time')[1].string.replace('\n', '').strip()
-            event['time_finish'] = event_time_finish
-            event['datetime_finish'] = datetime.datetime.strptime('2016' + day['name'] + event['time_finish'], '%Y%d %B%I:%M %p')
-            event['datetime_finish_str'] = str(event['datetime_finish'])
+    position_contents = info.select('.speaker-position-info')[0].contents
+    position = position_contents[0]
+    company = position_contents[2].string
 
-            event['location'] = event_description_element.select('span.session__location')[0].string if len(event_description_element.select('span.session__location')) > 0 else ''
-            event['description'] = event_description_element.select('div.uv-card__description')[0].string if len(event_description_element.select('div.uv-card__description')) > 0 else ''
-            event['description'] = event['description'].replace('\n', '').strip() if event['description'] else ''
-            if not event['description']:
-                event['description'] = ''.join(event_description_element.select('div.uv-card__description')[0].stripped_strings) if len(event_description_element.select('div.uv-card__description')) > 0 else ''
+    description_p = info.select('.speaker-single-description')[0].find('p')
+    description = description_p.string if description_p else ''
 
-            if event['title'] == 'Introduction to Pandas library':
-                print(event_description_element.select('div.uv-card__description'))
-                print(event_description_element.select('div.uv-card__description')[0].string)
-                strings = event_description_element.select('div.uv-card__description')[0].stripped_strings
-                for string in strings:
-                    print(string)
-                    print('\n')
-                print(''.join(event_description_element.select('div.uv-card__description')[0].stripped_strings))
+    twitter_el = info.select('.speaker-social-item.twitter')
+    twitter = twitter_el[0].find('a')['href'] if twitter_el else ''
+    linkedin_el = info.select('.speaker-social-item.linkedin')
+    linkedin = linkedin_el[0].find('a')['href'] if linkedin_el else ''
 
-            speakers_list = []
-            event_speakers_elements = event_description_element.select('div.uv-shortcard--speaker')
-            for event_speakers_element in event_speakers_elements:
-                speaker_details = []
-                speaker_details.append(event_speakers_element.select('div.uv-shortcard__title')[0].string)
-                for subtitle in event_speakers_element.select('div.uv-shortcard__subtitle'):
-                    speaker_details.append(subtitle.string)
-                speakers_list.append(' - '.join(speaker_details))
-            event['speakers'] = '; '.join(speakers_list)
-
-            day['events'].append(event)
-
-    return days
+    speaker = {
+        'name': name,
+        'position': position,
+        'company': company,
+        'description': description,
+        'linkedin': linkedin,
+        'twitter': twitter
+    }
+    return speaker
 
 
-def create_ics(schedule_json):
+def create_calendar_from_event_list(event_list, ics_filename):
     c = Calendar()
-    for day in schedule_json:
-        for event in day['events']:
-            e = Event(
-                name=event['title'],
-                begin=event['datetime_start'],
-                end=event['datetime_finish'],
-                description=u'Description:\n{description}\n\nSpeakers:\n{speakers}'.format(**event).encode('ascii', 'ignore'),
-                location=event['location']
-            )
-            c.events.append(e)
-    with open('pycon2016.ics', 'w') as writer:
-        writer.writelines(c)
+    for event in event_list:
+        speaker_str = """\
+            Name: {name}
+            Position: {position} @ {company}
+            Description: {description}
+            LinkedIn: {linkedin}
+            Twitter: {twitter}
+        """.replace('            ', '').format(**event['speaker'])
+        event['speaker_str'] = speaker_str
+        event_description = """\
+            Title:
+            {title}
+
+            Summary:
+            {summary}
+
+            Description:
+            {description}
+
+            Speaker:
+            {speaker_str}
+        """.replace('            ', '').format(**event)
+        e = Event(
+            name='{} [{}]'.format(event['title'], event['kind']),
+            begin=event['start_date'],
+            end=event['end_date'],
+            description=event_description,
+            location=event['location']
+        )
+        c.events.append(e)
+    with open(ics_filename, 'w') as w:
+        w.writelines(c)
 
 
 def main():
-    schedule_json = get_schedule_json()
-    create_ics(schedule_json)
+    event_list = get_event_list_from_url('https://www.bigdataspain.org/2017/schedule')
+    create_calendar_from_event_list(event_list, 'bigdataspain.ics')
 
 
 if __name__ == '__main__':
